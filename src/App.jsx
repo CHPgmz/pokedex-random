@@ -23,13 +23,13 @@ function App() {
 
   useEffect(() => {
     if (isLoading) {
-      const random = idRandom(1, 900);
+      const random = idRandom(1, 500);
       getPokemons(isLoading, setPokemon, setIsloading, random);
     }
 
     return () => {
       setInterval(() => {
-        const random = idRandom(1, 900);
+        const random = idRandom(1, 500);
         getPokemons(isLoading, setPokemon, setIsloading, random);
       }, 5000);
     };
