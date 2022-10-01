@@ -1,6 +1,5 @@
-**POKEDEX CREADO EN REACT**
+Ejemplo: POKEDEX  con React
 
-Para ejecutar el proyecto, ejecuto los siguientes comandos:
+Muestra un pokemon con info...., cada 3 segundos,
 
-- **npm i**
-- **npm run dev**
+<a href="#">Link Demo</a>
